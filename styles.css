@@ -1,0 +1,238 @@
+@font-face{
+    font-family: 'Denistina';  
+    src: url('fonts/Denistina.ttf');
+    }
+@font-face{
+    font-family: 'Mastodon';  
+    src: url('fonts/Mastodon.ttf');
+    }
+@font-face{
+    font-family: 'MatchBold';  
+    src: url('fonts/MatchBold.ttf');
+    }
+
+
+
+body {
+    margin: 0;
+    background-image: url(Pic/bg.png);
+    background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+
+}
+
+header {
+    height: 120px;
+    width: 100%;
+    text-align: center;
+    background-color: #b82d0c;
+    box-shadow: 0 1px 3px black;
+    position: fixed;
+    z-index: 1;
+}
+
+#menu {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+
+#menu li {
+    list-style: none;
+    display: inline-block;;
+    text-align: center;
+    line-height: 120px;
+    font-family: 'Mastodon';
+    color: white;
+    font-size: 20pt;
+}
+
+#m1 {
+    margin-right: 220px;
+}
+
+#m2 {
+    margin-left: 220px;
+}
+
+#icon {
+    width: auto;
+    height: 100%;
+    position: absolute;
+    margin: 0 0 0 -100px;
+}
+
+a:active,
+a:hover,
+a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+#main {
+    margin: 1500px 0 0 0;
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+}
+
+#bgInf1 {
+    background-color: rgb(233, 233, 233);
+}
+
+.bgInf {
+    margin: 100px auto;
+    width: 70%;
+    padding: 50px;
+    font-family: 'MatchBold';
+    font-size: 14pt;
+    margin-top: -90px;
+}
+
+#bgInf2 {
+    background-color: #b82d0c;
+    text-align: right;
+    color: white;
+}
+
+#bgInf3 {
+    background-color: rgb(233, 233, 233);
+    text-align: left;
+    color: black;
+}
+
+#bgInf4 {
+    background-color: #b82d0c;
+    text-align: right;
+    color: white;
+}
+
+#moscow {
+    background-color: rgb(233, 233, 233);
+}
+
+#kursk {
+    background-color: #b82d0c;
+    color: white;
+}
+
+#lenin {
+    background-color: rgb(233, 233, 233);
+}
+
+#berlin {
+    background-color: #b82d0c;
+    color: white;
+}
+
+#bgInfTitle {
+    background-color: rgb(233, 233, 233);
+    color: black;
+    padding: 5px 50px 5px 50px;
+    font-size: 40pt;
+    margin-top: -70px;
+    margin-bottom: 120px;
+    font-style: italic;
+}
+
+#pic1 {
+    float: right;
+    margin: -80px -80px 0 0;
+    height: 50%;
+    width: 50%;
+}
+
+#pic2 {
+    float: left;
+    margin: -80px 0px 0 -150px;
+    height: 60%;
+    width: 60%;
+}
+
+#pic21 {
+    float: right;
+    margin: -150px -220px 0 0px;
+    height: 50%;
+    width: 50%;
+}
+
+#pic3 {
+    float: left;
+    margin: -120px 0px 0 -150px;
+    height: 60%;
+    width: 60%;
+}
+
+#picmsk {
+    float: left;
+    margin: -80px 0 0 -100px;
+    height: 60%;
+    width: 60%;
+}
+
+#pickurs {
+    float: right;
+    margin: -80px -80px 0 0px;
+    height: 60%;
+    width: 60%;
+}
+
+#piclen {
+    float: left;
+    margin: -80px 0 0 -100px;
+    height: 60%;
+    width: 60%;
+}
+
+#picber {
+    float: right;
+    margin: -120px -120px 0 0px;
+    height: 60%;
+    width: 60%;
+}
+
+.pics {
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+}
+
+.pics:hover {
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
+
+
+#parent {
+    width: 75%;
+    height: auto;
+    overflow: hidden;
+    white-space:nowrap;
+    margin: 120px auto;
+    margin-top: -75px;
+    padding: 0;
+}
+
+#parent div {
+    display: inline-block;
+    vertical-align: top;
+    width: 24.79%;
+    height: 90px;
+    margin: 0px;
+    line-height: 90px;
+    text-align: center;
+    scrollbar-face-color: black;
+    background-color: #b82d0c;
+    padding: 0;
+}
+
+#parent div:hover {
+    cursor: pointer;
+}
+
+#rmt {
+    text-align: left;
+}
