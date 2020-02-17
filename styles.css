@@ -159,8 +159,8 @@ a {
 }
 
 #pic3 {
-    float: left;
-    margin: -120px 0px 0 -150px;
+    float: right;
+    margin: -150px -150px 0 0px;
     height: 60%;
     width: 60%;
 }
