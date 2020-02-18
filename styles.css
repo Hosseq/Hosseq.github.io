@@ -109,6 +109,64 @@ a {
     color: white;
 }
 
+#HeroInf {
+    width: 70%;
+    height: auto;
+    overflow: hidden;
+    white-space:nowrap;
+    margin: 120px auto;
+    margin-top: -100px;
+    padding: 0;
+}
+
+.HerBlock {
+    display: inline-block;
+    vertical-align: top;
+    width: 32%;
+    height: 800px;
+    margin: 5px;
+    background-color: #b82d0c;
+    padding: 0;
+    text-align: center;
+    white-space: normal;
+    padding: 20px;
+    overflow-y: auto;
+}
+ 
+
+.HerBlock img {
+    padding: 20px 20PX 0px 20px;
+    width: 100%;
+    height: auto;
+}
+
+#HB1 {
+    background-color: #b82d0c;
+    color: white;
+}
+
+#HB2 {
+    background-color: rgb(233, 233, 233);
+    color: black;
+}
+
+#HB3 {
+    background-color: #b82d0c;
+    color: white;
+}
+
+*, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#HeroInf:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 #moscow {
     background-color: rgb(233, 233, 233);
 }
@@ -128,6 +186,16 @@ a {
 }
 
 #bgInfTitle {
+    background-color: rgb(233, 233, 233);
+    color: black;
+    padding: 5px 50px 5px 50px;
+    font-size: 40pt;
+    margin-top: -70px;
+    margin-bottom: 120px;
+    font-style: italic;
+}
+
+#bgInfTitleHero {
     background-color: rgb(233, 233, 233);
     color: black;
     padding: 5px 50px 5px 50px;
@@ -207,7 +275,7 @@ a {
 
 
 #parent {
-    width: 75%;
+    width: 70%;
     height: auto;
     overflow: hidden;
     white-space:nowrap;
