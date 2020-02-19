@@ -11,21 +11,17 @@
     src: url('fonts/MatchBold.ttf');
     }
 
-
-
 body {
     margin: 0;
     background-image: url(Pic/bg.png);
     background-size: cover;
     height: 100%;
     background-repeat: no-repeat;
-
 }
 
 header {
     height: 120px;
     width: 100%;
-    text-align: center;
     background-color: #b82d0c;
     box-shadow: 0 1px 3px black;
     position: fixed;
@@ -36,6 +32,7 @@ header {
     margin: 0px;
     padding: 0px;
     height: 100%;
+    text-align: center;
 }
 
 #menu li {
@@ -126,10 +123,9 @@ a {
     height: 800px;
     margin: 5px;
     background-color: #b82d0c;
-    padding: 0;
     text-align: center;
     white-space: normal;
-    padding: 20px;
+    padding: 20px 20px 0 20px;
     overflow-y: auto;
 }
  
@@ -303,4 +299,18 @@ a {
 
 #rmt {
     text-align: left;
+}
+
+footer {
+    width: 100%;
+    height: 70px;
+    background-color: rgb(233, 233, 233);
+}
+
+footer a {
+    margin: 40px 10px 0 10px;
+}
+
+footer img {
+    text-align: right;
 }
