@@ -17,6 +17,7 @@ body {
     background-size: cover;
     height: 100%;
     background-repeat: no-repeat;
+    height: 100vh;
 }
 
 header {
@@ -110,18 +111,22 @@ a {
     width: 70%;
     height: auto;
     overflow: hidden;
-    white-space:nowrap;
+    padding: 0;
+    display: table;
     margin: 120px auto;
     margin-top: -100px;
-    padding: 0;
+}
+
+#HIR {
+    display: table-row;
+    border: 1px solid black;
 }
 
 .HerBlock {
-    display: inline-block;
+    display: table-cell;
     vertical-align: top;
-    width: 32%;
+    width: 31%;
     height: 800px;
-    margin: 5px;
     background-color: #b82d0c;
     text-align: center;
     white-space: normal;
@@ -147,6 +152,51 @@ a {
 }
 
 #HB3 {
+    background-color: #b82d0c;
+    color: white;
+}
+
+#HB4 {
+    background-color: #b82d0c;
+    color: white;
+}
+
+#HB5 {
+    background-color: rgb(233, 233, 233);
+    color: black;
+}
+
+#HB6 {
+    background-color: #b82d0c;
+    color: white;
+}
+
+#HB7 {
+    background-color: #b82d0c;
+    color: white;
+}
+
+#HB8 {
+    background-color: rgb(233, 233, 233);
+    color: black;
+}
+
+#HB9 {
+    background-color: #b82d0c;
+    color: white;
+}
+
+#HB10 {
+    background-color: #b82d0c;
+    color: white;
+}
+
+#HB11 {
+    background-color: rgb(233, 233, 233);
+    color: black;
+}
+
+#HB12 {
     background-color: #b82d0c;
     color: white;
 }

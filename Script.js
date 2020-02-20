@@ -42,18 +42,9 @@ $('.bgInf a').on('click', function(e){
     e.preventDefault();
   });
 
-$(window).scroll(function() {
-
-    var st = $(this).scrollTop();
-
-    $("#main").css({
-        "transform" : "translate(0%, -" + st/150 + "%"
-    });
-
-});
 
 $('#menu a').on('click', function(e){
     var goto = $(this).data('anchor');
-    $('html,body').stop().animate({ scrollTop: $(goto).offset().top-150 }, 1500);
+    $('html,body').stop().animate({ scrollTop: $(goto).offset().top-100 }, 1500);
     e.preventDefault();
   });
