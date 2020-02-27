@@ -108,27 +108,27 @@ a {
 }
 
 #bgInf5 {
-    background-color: rgb(233, 233, 233);
+    background-color: #b82d0c;
     text-align: left;
-    color: black;
+    color: white;
 }
 
 #bgInf6 {
-    background-color: #b82d0c;
-    text-align: left;
-    color: white;
-}
-
-#bgInf7 {
     background-color: rgb(233, 233, 233);
     text-align: left;
     color: black;
 }
 
-#bgInf8 {
+#bgInf7 {
     background-color: #b82d0c;
     text-align: left;
     color: white;
+}
+
+#bgInf8 {
+    background-color: rgb(233, 233, 233);
+    text-align: left;
+    color: black;
 }
 
 #bgInf9 {
@@ -302,8 +302,8 @@ a {
 }
 
 #bgInfTitleHero {
-    background-color: #b82d0c;
-    color:  white;
+    background-color: rgb(233, 233, 233);
+    color:  black;
     padding: 5px 50px 5px 50px;
     font-size: 40pt;
     margin-top: 0px;
