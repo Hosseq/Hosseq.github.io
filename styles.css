@@ -107,6 +107,30 @@ a {
     color: white;
 }
 
+#bgInf5 {
+    background-color: rgb(233, 233, 233);
+    text-align: left;
+    color: black;
+}
+
+#bgInf6 {
+    background-color: #b82d0c;
+    text-align: left;
+    color: white;
+}
+
+#bgInf7 {
+    background-color: rgb(233, 233, 233);
+    text-align: left;
+    color: black;
+}
+
+#bgInf8 {
+    background-color: #b82d0c;
+    text-align: left;
+    color: white;
+}
+
 #HeroInf {
     width: 70%;
     height: auto;
@@ -242,8 +266,8 @@ a {
 }
 
 #bgInfTitleHero {
-    background-color: rgb(233, 233, 233);
-    color: black;
+    background-color: #b82d0c;
+    color:  white;
     padding: 5px 50px 5px 50px;
     font-size: 40pt;
     margin-top: -70px;
@@ -277,6 +301,34 @@ a {
     margin: -150px -150px 0 0px;
     height: 60%;
     width: 60%;
+}
+
+#pic4 {
+    float: left;
+    margin: -80px 0px 0 -150px;
+    height: 60%;
+    width: 60%;
+}
+
+#pic5 {
+    float: right;
+    margin: -150px -150px 0 0px;
+    height: 35%;
+    width: 35%;
+}
+
+#pic6 {
+    float: left;
+    margin: -120px 0px 0 -100px;
+    height: 15%;
+    width: 15%;
+}
+
+#pic7 {
+    float: right;
+    margin: -100px -150px 0 0px;
+    height: 50%;
+    width: 50%;
 }
 
 #picmsk {
