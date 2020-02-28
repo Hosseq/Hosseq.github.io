@@ -378,7 +378,7 @@ a {
 
 #pic8 {
     float: right;
-    margin: -150px -100px 0 0px;
+    margin: -150px -50px 0 0px;
     height: 2%;
     width: 8%;
 }
@@ -506,7 +506,7 @@ footer {
     height: 100%;
     background-color: rgb(233, 233, 233);
     z-index: 1;
-    font-family: 'Colibri';
-    padding: 10px;
-    line-height: 0.5;
+    font-family: 'Arial';
+    padding: 2px 0 0px 20px;
+    line-height: 1;
 }
